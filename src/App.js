@@ -8,6 +8,8 @@ import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import Home from "./views/Home";
 import Home2 from "./views/Home2";
+import About from "./components/About";
+import Contact from "./components/Contact";
 import Profile from "./views/Profile";
 import ExternalApi from "./views/ExternalApi";
 import { useAuth0 } from "@auth0/auth0-react";
@@ -64,6 +66,8 @@ const App = () => {
             <Switch>
               <Route path="/react" exact component={Home} />
               <Route path="/react/home2" exact component={Home2} />
+              <Route path="/react/about" exact component={About} />
+              <Route path="/react/contact" exact component={Contact} />
               <Route path="/react/profile" component={Profile} />
               <Route path="/react/external-api" component={ExternalApi} />
             </Switch>

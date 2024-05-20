@@ -11,6 +11,16 @@ const Hero = () => (
       This is a sample application that demonstrates an authentication flow for
       an SPA, using <a href="https://reactjs.org">React.js</a>
     </p>
+
+    <p>
+      <a href="/react/home2">Go to Home 2</a>
+    </p>
+    <p>
+      <a href="/react/about">Go to About</a>
+    </p>
+    <p>
+      <a href="/react/contact">Go to Contact</a>
+    </p>
   </div>
 );
 
